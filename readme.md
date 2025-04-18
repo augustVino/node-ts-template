@@ -1,0 +1,1 @@
+极简模板，用于在Node.js和ESM中使用TypeScript。
