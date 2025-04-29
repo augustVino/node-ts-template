@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.markdown-container {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.markdown-output {
+  position: relative;
+  min-height: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1677ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #0958d9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* 光标样式 */
+.typed-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background-color: #1677ff;
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Markdown 样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1677ff;
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
