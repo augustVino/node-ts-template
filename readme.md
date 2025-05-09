@@ -99,7 +99,6 @@ pnpm add dotenv openai @modelcontextprotocol/sdk chalk**
     - 译文: https://www.yuque.com/serviceup/misc/cn-retrieval-augmented-generation-overview
 - 各种Loaders: https://python.langchain.com/docs/integrations/document_loaders/
 - [硅基流动](https://cloud.siliconflow.cn/models)
-    - 邀请码： **x771DtAF**
 - [json数据](https://jsonplaceholder.typicode.com/)
 
 ## 向量
